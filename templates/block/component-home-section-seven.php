@@ -7,7 +7,7 @@
             <div class="handbook_wrap">
 
                 <div class=" row d-flex align-items-start ">
-                    <div class="nav flex-column nav-pills col-4 col-sm-12" id="v-pills-tab" role="tablist"
+                    <div class="nav flex-column nav-pills col-lg-4 col-sm-12" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
                         <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
@@ -20,7 +20,7 @@
                             aria-selected="false">Hướng dẫn sử dụng và bảo quản</button>
 
                     </div>
-                    <div class="tab-content col-8 col-sm-12" id="v-pills-tabContent">
+                    <div class="tab-content col-lg-8 col-sm-12" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <h2 class="handbook_wrap_title">Nâng niu sức khỏe cùng vị Yến</h2>

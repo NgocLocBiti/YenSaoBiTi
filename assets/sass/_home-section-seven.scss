@@ -37,6 +37,14 @@ background-image: url(https://bitishop.site/yensao/wp-content/themes/yensaohaida
     &_wrap {
       position: relative;
       padding-top: 20px;
+
+      .nav-pills {
+        @media (max-width: 1000px) {
+            display: flex;
+            flex-direction: row !important;
+        }
+      }
+      
       .nav-pills .nav-link.active {
         color: #c1272d;
         background-color: transparent;

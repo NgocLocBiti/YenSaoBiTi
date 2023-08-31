@@ -606,6 +606,10 @@ main {
   .section_seven .handbook_wrap {
     position: relative;
     padding-top: 20px; }
+    @media (max-width: 1000px) {
+      .section_seven .handbook_wrap .nav-pills {
+        display: flex;
+        flex-direction: row !important; } }
     .section_seven .handbook_wrap .nav-pills .nav-link.active {
       color: #c1272d;
       background-color: transparent;
