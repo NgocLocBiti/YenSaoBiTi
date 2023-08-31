@@ -1,0 +1,25 @@
+.section10 {
+  .paetner-shipping {
+    .container {
+      .owl-carousel {
+        .item {
+          img {
+          }
+        }
+      }
+    }
+  }
+}
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+// .owl-carousel.owl-drag .owl-item {
+//     width:  169.33px !important;
+// }
+@media screen and (max-width:992px) {
+  .section10 {
+    padding: 0 10%;
+  }
+}

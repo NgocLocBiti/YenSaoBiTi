@@ -1,0 +1,37 @@
+.footer {
+  .footer-main {
+    background: #f4f7f7;
+    background-image: url("https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/footer_bannermain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    .container {
+      .footer-logo {
+        padding-bottom: 10px;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid #fff;
+        img {
+          width: 170px;
+          margin: 0 auto;
+          display: block;
+          
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    background: #850c10;
+    padding: 14px 0;
+
+    .container {
+        p {
+            a {
+                color: #fff;
+            }
+        }
+    }
+  }
+}
