@@ -1,0 +1,29 @@
+.section2 {
+    padding-bottom: 30px;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 210px;
+        padding: 10px;
+
+        .logo {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .section2-title{
+            font-size: 18px !important;
+            color: black !important;
+            margin-top: 15px;
+            font-family: "Nunito"!important;
+        }
+        .section2-content{
+            font-family: "Nunito"!important;
+            font-size: 18px !important;
+        }
+    }
+}
