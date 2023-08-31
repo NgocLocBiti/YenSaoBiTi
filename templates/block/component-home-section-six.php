@@ -301,7 +301,37 @@
                 </div>
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="row">
-                        <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-4 col-6 product_list">
+                            <div class="product_item">
+
+                                <div class="product_item_top">
+                                    <span class="product_logo_img">
+
+                                        <img src="https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/introduce_yen/logo-introduce-min.png"
+                                            width="70" height="70" alt="Logo sản phẩm yến">
+                                    </span>
+                                    <span>
+                                        <p>
+                                            <a href="#"> Thêm Vào Giỏ Hàng</a>
+                                        </p>
+                                    </span>
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img width="300" height="300"
+                                                src="https://bitishop.site/yensao/wp-content/uploads/2022/12/320165805_1453901151802539_4404899085344131584_n-300x300.jpeg"
+                                                class="thumnail wp-post-image" alt="" decoding="async"
+                                                srcset="https://bitishop.site/yensao/wp-content/uploads/2022/12/320165805_1453901151802539_4404899085344131584_n-300x300.jpeg 300w, https://bitishop.site/yensao/wp-content/uploads/2022/12/320165805_1453901151802539_4404899085344131584_n-100x100.jpeg 100w, https://bitishop.site/yensao/wp-content/uploads/2022/12/320165805_1453901151802539_4404899085344131584_n-150x150.jpeg 150w, https://bitishop.site/yensao/wp-content/uploads/2022/12/320165805_1453901151802539_4404899085344131584_n.jpeg 564w"
+                                                sizes="(max-width: 300px) 100vw, 300px">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product_item_bottom">
+                                    <h6>Yến tinh chế loại 1 lạng</h6>
+                                    <p>8,000,000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 product_list">
                             <div class="product_item">
 
                                 <div class="product_item_top">
@@ -326,12 +356,12 @@
                                     </div>
                                 </div>
                                 <div class="product_item_bottom">
-                                    <h6>YẾN TINH CHẾ LOẠI 1 TAI</h6>
-                                    <p>800,000 VNĐ</p>
+                                    <h6>Yến tinh chế loại 1/2 lạng</h6>
+                                    <p>12,000,000 VNĐ</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-4 col-6 product_list">
                             <div class="product_item">
 
                                 <div class="product_item_top">
@@ -356,12 +386,12 @@
                                     </div>
                                 </div>
                                 <div class="product_item_bottom">
-                                    <h6>YẾN TINH CHẾ LOẠI 1 TAI</h6>
-                                    <p>800,000 VNĐ</p>
+                                    <h6>Set yến Baby</h6>
+                                    <p>4,000,000 VNĐ</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-4 col-6 product_list">
                             <div class="product_item">
 
                                 <div class="product_item_top">
@@ -386,12 +416,12 @@
                                     </div>
                                 </div>
                                 <div class="product_item_bottom">
-                                    <h6>YẾN TINH CHẾ LOẠI 1 TAI</h6>
-                                    <p>800,000 VNĐ</p>
+                                    <h6>Yến thô loại 1 lạng</h6>
+                                    <p>200,000 VNĐ</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-4 col-6 product_list">
                             <div class="product_item">
 
                                 <div class="product_item_top">
@@ -421,6 +451,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                 </div>
@@ -528,7 +559,7 @@
 
     </div>
 </div>
-
+<!-- 
 <script >
 
 let selectContainer = document.querySelector(".select-container");
@@ -550,4 +581,4 @@ options.forEach((e) => {
         e.classList.add("selected");
     });
 });
-</script>
+</script> -->
