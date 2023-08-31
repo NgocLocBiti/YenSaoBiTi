@@ -5,6 +5,10 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  @media (max-width: 1300px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 background-image: url(https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/pattern-home2.png);
 
   .handbook {
@@ -54,6 +58,23 @@ background-image: url(https://bitishop.site/yensao/wp-content/themes/yensaohaida
         // flex: 1 1 auto;
         // border-radius: 12px;
         // border-left: 10px #c1272d solid;
+        
+           @media (max-width: 1000px) {
+            &::before{
+              content: "";
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 3px;
+    background: #c1272d;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+            
+
+        }
+       }
         &::after {
           content: "";
           display: block;
@@ -64,6 +85,11 @@ background-image: url(https://bitishop.site/yensao/wp-content/themes/yensaohaida
           border-radius: 12px;
           position: absolute;
           top: 0;
+          @media (max-width: 1000px) {
+           display: none !important;
+
+        }
+
         }
       }
       button {
