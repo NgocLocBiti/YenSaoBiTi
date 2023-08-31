@@ -9,14 +9,15 @@
     .owl-theme .owl-nav.disabled+.owl-dots {
         position: relative;
         top: -55px;
+        display: block !important;
     }
 
     .owl-theme .owl-dots .owl-dot span {
-        display: inline-block;
+        display: inline-block !important;
         zoom: 2;
     }
     .owl-theme .owl-dots .owl-dot.active span {
-        display: inline-block;
+        display: inline-block !important;
         zoom: 2;
         background: #c1272d;
     }

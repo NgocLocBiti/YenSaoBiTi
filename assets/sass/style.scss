@@ -15,7 +15,7 @@ $gray-light-co: #f9f9f9;
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito",sans-serif;
   line-height: 1.5;
   box-sizing: border-box !important;
 }
@@ -383,7 +383,7 @@ main {
 @import "section1";
 @import "section2";
 @import "section3";
-@import "section4";
+@import "home-section4";
 @import "home-section9";
 @import "home-section10";
 @import "home-section11";
