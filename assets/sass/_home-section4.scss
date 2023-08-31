@@ -1,0 +1,36 @@
+.icon-rl {
+  display: flex;
+  padding-bottom: 1rem;
+  .icon1 {
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #e0ccb9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .icon2 {
+    font-size: 16px;
+    background: #f9f9f9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .icon2:hover {
+    background: #c1272d;
+    color: #fff;
+  }
+}
+
+.section_six {
+  padding-top: 3rem;
+}

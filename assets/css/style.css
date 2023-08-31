@@ -257,6 +257,38 @@ main {
 @media (max-width: 767.98px) {
   .auto-padding {
     padding: 24px 0; } }
+.icon-rl {
+  display: flex;
+  padding-bottom: 1rem; }
+  .icon-rl .icon1 {
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #e0ccb9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+  .icon-rl .icon2 {
+    font-size: 16px;
+    background: #f9f9f9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem; }
+  .icon-rl .icon2:hover {
+    background: #c1272d;
+    color: #fff; }
+
+.section_six {
+  padding-top: 3rem; }
+
 .home_section_file {
   padding-bottom: 60px; }
   .home_section_file .reason {
