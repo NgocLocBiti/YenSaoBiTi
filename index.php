@@ -6,18 +6,15 @@
     <?php get_template_part('templates/block/component', 'section2'); ?>
     <?php get_template_part('templates/block/component', 'section3'); ?>
     <?php get_template_part('templates/block/component', 'home-section4'); ?>
-<<<<<<< HEAD
     <?php get_template_part('templates/block/component', 'home-section-five'); ?>
     <?php get_template_part('templates/block/component', 'home-section-six'); ?>
     <?php get_template_part('templates/block/component', 'home-section-seven'); ?>
     <?php get_template_part('templates/block/component', 'home-section-eight'); ?>
-=======
-    
-        <?php get_template_part('templates/block/component', 'home-section-five'); ?>
-        <?php get_template_part('templates/block/component', 'home-section-six'); ?>
-        <?php get_template_part('templates/block/component', 'home-section-seven'); ?>
 
->>>>>>> 35e02d889a8e9b83b81a247ac707a3a0d2df1390
+    
+    <?php get_template_part('templates/block/component', 'home-section-test'); ?>
+
+
     <?php get_template_part('templates/block/component', 'home-section9'); ?>
     <?php get_template_part('templates/block/component', 'home-section10'); ?>
     <?php get_template_part('templates/block/component', 'home-section11'); ?>
