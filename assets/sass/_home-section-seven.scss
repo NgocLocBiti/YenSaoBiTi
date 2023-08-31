@@ -1,0 +1,183 @@
+.section_seven {
+  padding: 40px 0px;
+  margin-top: 30px;
+  @media (max-width: 1300px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media (max-width: 600px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  background-image: url(https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/pattern-home2.png);
+
+  .handbook {
+    &_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      //   text-align: center;
+      h2 {
+        font-weight: 600;
+        color: #c1272d;
+        font-size: 28px;
+        border-bottom: 5px #c1272d solid;
+        padding: 16px;
+        font-family: "Nunito", sans-serif;
+        margin: 0px;
+        @media (max-width: 480px) {
+         font-size: 22px;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          bottom: 1px;
+          left: 0;
+          height: 2px;
+          border-radius: 12px;
+          background: #c1272d;
+        }
+      }
+    }
+    &_wrap {
+      position: relative;
+      padding-top: 20px;
+      .nav-pills {
+        @media (max-width: 1000px) {
+          width: 100%;
+          flex-direction: row !important;
+          padding: 0;
+        }
+      }
+      .nav-pills .nav-link.active {
+        color: #c1272d;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 21px;
+        position: relative;
+        // flex: 1 1 auto;
+        // border-radius: 12px;
+        // border-left: 10px #c1272d solid;
+        @media (max-width: 1000px) {
+          &::before{
+            content: "";
+            display: block;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #c1272d;
+            border-radius: 12px;
+            position: absolute;
+            top: 0;
+        
+          }
+         }
+        &::after {
+          content: "";
+          display: block;
+          left: 0;
+          width: 8px;
+          height: 100%;
+          background: #c1272d;
+          border-radius: 12px;
+          position: absolute;
+          top: 0;
+          @media (max-width: 1000px) {
+           display: none;
+          }
+        }
+      }
+      button {
+        text-align: left;
+        background: transparent;
+        font-weight: 500;
+        font-size: 20px;
+        color: #29292e;
+        margin: 0 5px;
+        padding: 16px 20px;
+      }
+      &_title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #c1272d;
+      }
+      &_desc {
+        font-size: 16px;
+        line-height: 22px;
+        color: #29292e;
+      }
+      &_slide {
+        .item {
+          height: 200px;
+          transition: all 0.3s linear;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        .owl-carousel .owl-nav.disabled {
+          margin-top: 20px;
+          display: flex;
+          padding-left: 60px;
+          button {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #d0c6c624;
+            margin-right: 20px;
+            transition: all 0.3s linear;
+            &:hover {
+              background-color: #c1272d;
+            }
+            span {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+      &_content {
+        img {
+          height: 180px;
+          padding: 10px;
+          transition: transform 0.3s;
+          border-radius: 20px;
+          filter: drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275))
+            drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035))
+            drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725))
+            drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+        }
+      }
+    }
+    &_button {
+      a {
+        position: absolute;
+        right: 57px;
+        bottom: 26px;
+        background: #fff;
+        border: 1px solid #c1272d;
+        border-radius: 60px;
+        width: 157px;
+        height: 42px;
+        color: #c1272d;
+        font-size: 16px;
+        z-index: 1;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 900px) {
+          bottom: -30px;
+
+        }
+        &:hover {
+          background-color: #c1272d;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

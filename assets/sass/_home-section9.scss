@@ -1,0 +1,165 @@
+.section9 {
+  .news-nvt {
+    .contenner {
+      padding: 40px 0;
+      width: 74%;
+      margin: 0 auto;
+      .news-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem !important;
+        position: relative;
+
+        h2 {
+          font-weight: 600;
+          color: #c1272d;
+          position: relative;
+        }
+
+        h2::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          bottom: -1px;
+          left: 0;
+          height: 4px;
+          border-radius: 12px;
+          background: #c1272d;
+        }
+      }
+      .news-title::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        border-radius: 12px;
+        background: #c1272d;
+      }
+
+      .row {
+        .owl-carousel {
+          .item {
+            .snh_news-item {
+              padding: 8px;
+              height: 430px;
+              background: #f9f9f9;
+              border-radius: 12px;
+              border: 2px solid #fff;
+              .card-top {
+                overflow: hidden;
+                height: 224px;
+                border-radius: 8px;
+              }
+              .card-body {
+                padding: 2rem 1rem 0 1rem;
+                .card-text {
+                  overflow: hidden;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 22px;
+                  color: #29292e;
+                  margin: 0;
+                  display: -webkit-box;
+                  line-clamp: 2;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  text-overflow: ellipsis;
+                  white-space: normal;
+                  overflow: hidden;
+                }
+              }
+            }
+          }
+
+          .disabled {
+            display: none;
+          }
+        }
+      }
+
+      .item-bottom {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        a {
+          text-decoration: none;
+          color: #c1272d;
+
+          .btn-new {
+            background: #fff;
+            border: 1px solid #c1272d;
+            border-radius: 60px;
+            padding: 10px 34px;
+            color: #c1272d;
+            font-size: 16px;
+            transition: 0.5s;
+          }
+          .btn-new:hover {
+            color: #fff;
+            background: #c1272d;
+          }
+        }
+      }
+    }
+  }
+}
+
+.card-img-top {
+  height: 100%;
+  transition: transform 0.3s;
+}
+.disabled {
+  display: none;
+}
+
+.section9 .item:hover {
+  filter: drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275))
+    drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035))
+    drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725))
+    drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
+.section9 .news-nvt .contenner .row .owl-carousel .item .snh_news-item:hover {
+  border: 2px solid #c1272d;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.section9
+  .news-nvt
+  .contenner
+  .row
+  .owl-carousel
+  .item
+  .snh_news-item:hover
+  .card-text {
+  color: #c1272d;
+}
+.section9
+  .news-nvt
+  .contenner
+  .row
+  .owl-carousel
+  .item
+  .snh_news-item:hover
+  .card-title {
+  color: #c1272d;
+}
+.section9
+  .news-nvt
+  .contenner
+  .row
+  .owl-carousel
+  .item
+  .snh_news-item:hover
+  .card-button
+  a {
+  color: #c1272d;
+}
+
+.section9 .snh_news-item .card-top .card-img-top:hover {
+  transform: scale(1.1);
+}
