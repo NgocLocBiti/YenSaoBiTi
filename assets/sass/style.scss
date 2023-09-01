@@ -15,7 +15,7 @@ $gray-light-co: #f9f9f9;
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 
 * {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 1.5;
   box-sizing: border-box !important;
 }
@@ -329,6 +329,7 @@ main {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+
   // title setting
   h1 {
     font-size: 24px !important;
@@ -381,8 +382,6 @@ main {
 @import "home";
 @import "header";
 
-
-
 @import "section1";
 @import "section2";
 @import "section3";
@@ -396,4 +395,5 @@ main {
 @import "home-section11";
 
 @import "footer";
+
 

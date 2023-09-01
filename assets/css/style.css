@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 * {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 1.5;
   box-sizing: border-box !important; }
 
@@ -599,7 +599,8 @@ main {
       top: 20px;
       left: 20px;
       border-radius: 40px;
-      overflow: hidden; }
+      overflow: hidden;
+      transition: all 0.9s linear; }
       .section3 .background .video .a-tag {
         position: relative; }
         .section3 .background .video .a-tag img {
@@ -639,6 +640,22 @@ main {
             left: 50%;
             transform: translate(-50%, 0);
             z-index: -1; }
+      .section3 .background .video::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        left: 50%;
+        transform: translateX(-50%); }
+      .section3 .background .video:hover ::after {
+        transition: all 0.6s linear;
+        opacity: 1;
+        box-shadow: 0 0 1px 10px rgba(255, 255, 255, 0.4), 0 0 1px 20px rgba(255, 255, 255, 0.2), 0 0 1px 30px rgba(255, 255, 255, 0.1); }
   .section3 .section3-right {
     padding-top: 5%;
     padding-left: 3rem !important; }
@@ -665,10 +682,16 @@ main {
     padding-top: 40px !important; }
 
   .video {
-    left: 15px !important; } }
+    left: 15px !important; }
+
+  .section3 .container {
+    padding: 0 8%; } }
 @media (max-width: 869px) {
   .section3-right {
-    padding-top: 40px !important; } }
+    padding-top: 40px !important; }
+
+  .section3 .container {
+    padding: 0 8%; } }
 .icon-rl {
   display: flex;
   padding-bottom: 1rem; }
