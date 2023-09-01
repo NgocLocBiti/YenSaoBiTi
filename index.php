@@ -11,8 +11,6 @@
     <?php get_template_part('templates/block/component', 'home-section-seven'); ?>
     <?php get_template_part('templates/block/component', 'home-section-eight'); ?>
 
-    
-    <?php get_template_part('templates/block/component', 'home-section-test'); ?>
 
 
     <?php get_template_part('templates/block/component', 'home-section9'); ?>

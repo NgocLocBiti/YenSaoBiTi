@@ -261,6 +261,9 @@ main {
   font-family: "Nunito";
   line-height: 1.5;
   box-sizing: border-box !important; }
+  @media (max-width: 1200px) {
+    .header .desktop-menu {
+      display: none; } }
   .header .header-top {
     background: #f2f2f2 !important;
     padding-top: 5px; }
@@ -412,6 +415,133 @@ main {
       opacity: 1;
       pointer-events: auto;
       top: 23px; }
+  .header .mobile_menu {
+    height: 70px;
+    background-color: white;
+    display: none; }
+    @media (max-width: 1200px) {
+      .header .mobile_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px; } }
+    .header .mobile_menu_cart {
+      margin-left: 20px;
+      border: none;
+      width: 50px;
+      height: 50px;
+      right: 0;
+      border-radius: 50%;
+      color: #c1272d;
+      background: rgba(245, 245, 245, 0.7);
+      transition: transform 0.6s; }
+      .header .mobile_menu_cart:hover a i {
+        transform: scale(1.2); }
+      .header .mobile_menu_cart a {
+        color: #c1272d;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px; }
+    .header .mobile_menu_logo img {
+      width: 70px;
+      height: auto; }
+    .header .mobile_menu_icon {
+      margin-right: 30px; }
+      .header .mobile_menu_icon i {
+        transform: scale(1.9);
+        color: #c1272d; }
+      .header .mobile_menu_icon.active {
+        display: none; }
+    .header .mobile_menu_exit {
+      margin-right: 30px;
+      display: none; }
+      .header .mobile_menu_exit i {
+        transform: scale(1.9);
+        color: #c1272d; }
+      .header .mobile_menu_exit.active {
+        display: block; }
+    .header .mobile_menu_container {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.95);
+      position: absolute;
+      top: 112px;
+      width: 100%;
+      bottom: 0;
+      z-index: 65;
+      transition: all 0.5s linear;
+      padding-top: 15px;
+      opacity: 0; }
+      @media (max-width: 1200px) {
+        .header .mobile_menu_container {
+          height: 452px; } }
+      @media (max-width: 480px) {
+        .header .mobile_menu_container {
+          top: 120px;
+          height: 460px; } }
+      .header .mobile_menu_container.active {
+        opacity: 1; }
+    .header .mobile_menu_wrap {
+      max-width: 400px; }
+    .header .mobile_menu_search {
+      position: relative; }
+      .header .mobile_menu_search input {
+        border-radius: 20px;
+        width: 380px;
+        padding: 8px;
+        /* color: #ffffff96; */
+        border-color: #d7d4d4;
+        padding-left: 20px;
+        margin-top: 15px;
+        position: relative; }
+        @media (max-width: 480px) {
+          .header .mobile_menu_search input {
+            width: 340px; } }
+      .header .mobile_menu_search i {
+        position: absolute;
+        top: 27px;
+        right: 27px; }
+    .header .mobile_menu_list {
+      text-align: center; }
+      .header .mobile_menu_list ul li {
+        list-style: none;
+        /* margin-top: 10px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #977878; }
+    .header .mobile_menu_contact {
+      width: 100%; }
+      .header .mobile_menu_contact_top {
+        display: flex; }
+        @media (max-width: 480px) {
+          .header .mobile_menu_contact_top {
+            flex-direction: column;
+            text-align: center; } }
+        .header .mobile_menu_contact_top a {
+          font-size: 14px;
+          color: #c1272d;
+          padding: 5px; }
+          .header .mobile_menu_contact_top a i {
+            font-size: 12px; }
+          .header .mobile_menu_contact_top a span {
+            font-size: 14px;
+            color: #c1272d; }
+      .header .mobile_menu_contact_bottom {
+        display: flex;
+        justify-content: center; }
+        .header .mobile_menu_contact_bottom ul {
+          display: flex;
+          margin-left: 0; }
+          .header .mobile_menu_contact_bottom ul li {
+            list-style-type: none;
+            padding-right: 10px; }
+            .header .mobile_menu_contact_bottom ul li img {
+              width: 27px;
+              height: 20px; }
 
 .section1 img {
   width: 100%;
