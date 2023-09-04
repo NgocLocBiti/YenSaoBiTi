@@ -111,12 +111,12 @@
                                     </ul>
                                 </li>
                                 <li class="li3">
-                                    <a href=""> SẢN PHẨM YẾN <i class="far fa-angle-down" style="color: #ffffff;"></i>
+                                    <a href="./cua-hang"> SẢN PHẨM YẾN <i class="far fa-angle-down" style="color: #ffffff;"></i>
                                     </a>
                                     <ul class="ul3">
-                                        <li> <a href=""> Yến sào Đại An</a></li>
-                                        <li> <a href=""> Yến tinh chế</a></li>
-                                        <li> <a href=""> Set Yến sào Đại An</a></li>
+                                        <li> <a href="./yen-sao-dai-an"> Yến sào Đại An</a></li>
+                                        <li> <a href="./yen-tinh-che"> Yến tinh chế</a></li>
+                                        <li> <a href="./set-yen-sao-dai-an"> Set Yến sào Đại An</a></li>
                                     </ul>
                                 </li>
                                 <li class="li4">
