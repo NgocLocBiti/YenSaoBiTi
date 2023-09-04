@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<!-- <main class="tintuc tintuc-detail">
+<main class="tintuc tintuc-detail">
 
     <section class="tintuc-banner position-relative">
         <h1 class="text-white text-center text-uppercase position-absolute fw-bold"><?php the_title(); ?></h1>
@@ -47,7 +47,6 @@
             </div>
         </div>
     </section>
-    sdasdasdsadasdsadasd
-</main> -->
+</main>
 
 <?php get_footer(); ?>
