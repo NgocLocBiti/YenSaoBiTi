@@ -1,221 +1,401 @@
-    .header {
-        font-family: "Nunito";
-        line-height: 1.5;
-        box-sizing: border-box !important;
+.header {
+  font-family: "Nunito";
+  line-height: 1.5;
+  box-sizing: border-box !important;
+  .desktop-menu {
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  .header-top {
+    background: #f2f2f2 !important;
+    padding-top: 5px;
 
-        .header-top {
-            background: #f2f2f2 !important;
-            padding-top: 5px;
-
-            .container {
-                display: flex !important;
-                justify-content: space-between;
-            }
-
-            .top-left {
-                p {
-                    color: #c1272d;
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin-bottom: 5px !important;
-                }
-            }
-
-            .top-right {
-                ul {
-                    list-style: none !important;
-                    display: flex;
-                    margin-bottom: 5px !important;
-
-                    li {
-                        margin-left: 10px;
-                    }
-                }
-            }
-        }
-
-        .header-center {
-            padding: 5px 0;
-
-            .center-item {
-                display: flex !important;
-                align-items: center !important;
-                justify-content: space-between;
-
-                &-logo {}
-
-                &-info {
-                    display: flex;
-                    justify-content: space-evenly;
-                    gap: 40px;
-
-                    .info1 {
-                        display: flex;
-                        height: 45px;
-                    }
-
-                    ul {
-                        list-style: none;
-                        padding-left: 10px;
-
-                        li {
-                            font-size: 16px !important;
-                            font-weight: bold;
-                            font-family: "Nunito";
-
-                            a {
-                                font-family: "Nunito";
-                                font-size: 16px !important;
-                                font-weight: bold;
-                                color: #212529;
-                            }
-                        }
-                    }
-                }
-
-                &-search {
-                    display: flex;
-                    gap: 35px;
-
-                    .search-bar {
-                        position: relative;
-                        background: rgba(245, 245, 245, 0.7) !important;
-                        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.04);
-                        border-radius: 80px;
-                        height: 50px;
-                        width: 400px;
-
-                        .btn-search {
-                            position: absolute;
-                            background: transparent;
-                            border: none;
-                            width: 50px;
-                            height: 50px;
-                            right: 0;
-                            border-radius: 50%;
-                        }
-
-                        .input_search {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            height: 100%;
-                            width: 100%;
-                            background: transparent;
-                            text-indent: 20px;
-                            border: none;
-                            outline: none;
-                        }
-                    }
-
-                    .cart {
-                        border: none;
-                        width: 50px;
-                        height: 50px;
-                        right: 0;
-                        border-radius: 50%;
-                        color: #c1272d;
-                        background: rgba(245, 245, 245, 0.7);
-                        transition: transform 0.6s;
-
-                        a {
-                            color: #c1272d;
-                            align-items: center;
-                            display: flex;
-                            justify-content: center;
-                            width: 50px;
-                            height: 50px;
-                            font-size: 20px;
-                        }
-                    }
-                }
-            }
-        }
-
-        .header-bottom {
-            background: #c1272d;
-
-            .menu-wrap {
-                ul {
-                    display: flex;
-                    justify-content: space-between;
-                    list-style: none;
-                    margin-bottom: 0px !important;
-
-                    li {
-                        padding: 8px 0;
-
-                        a {
-                            font-size: 17px;
-                            font-weight: 400;
-                            color: white;
-                            font-family: "Nunito";
-                        }
-
-                        &:hover a {
-                            text-decoration: underline;
-                            color: white;
-                            font-weight: normal !important;
-                        }
-
-                        .ul2,
-                        .ul3,
-                        .ul4,
-                        .ul5 {
-                            z-index: 999999;
-                            display: block;
-                            position: absolute;
-                            opacity: 0;
-                            transform: translate(0, 10px);
-                            transition: opacity 200ms ease-in, transform 200ms ease-in, visibility 200ms ease-in;
-                            margin-top: 8px;
-                            width: 260px;
-                            padding-left: 15px !important;
-                            background: white;
-                            box-shadow: 7px 8px 7px rgba(0, 0, 0, .25);
-                            border-top: 3px solid #bd8e34;
-                            border-left: 0px solid #bd8e34;
-                            border-right: 0px solid #bd8e34;
-                            border-bottom: 0px solid #bd8e34;
-                            border-radius: 8px 8px 4px 4px;
-                            top: 40px;
-                            transition: top 0.3s ease;
-
-                            li {
-                                a {
-                                    color: black !important;
-                                    text-decoration: none !important;
-                                }
-
-                                &:hover a {
-                                    color: #c1272d !important;
-                                    font-weight: bold !important;
-                                }
-                            }
-
-                        }
-                    }
-                }
-
-                .li2,
-                .li3,
-                .li4,
-                .li5 {
-                    position: relative;
-                }
-
-                .li2:hover .ul2,
-                .li3:hover .ul3,
-                .li4:hover .ul4,
-                .li5:hover .ul5 {
-                    opacity: 1;
-                    pointer-events: auto;
-                    top: 23px;
-                }
-            }
-        }
+    .container {
+      display: flex !important;
+      justify-content: space-between;
     }
 
-@media (max-width:992px){
-    
+    .top-left {
+      p {
+        color: #c1272d;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px !important;
+      }
+    }
+
+    .top-right {
+      ul {
+        list-style: none !important;
+        display: flex;
+        margin-bottom: 5px !important;
+
+        li {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .header-center {
+    padding: 5px 0;
+
+    .center-item {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between;
+
+      &-logo {
+      }
+
+      &-info {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+
+        .info1 {
+          display: flex;
+          height: 45px;
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 10px;
+
+          li {
+            font-size: 16px !important;
+            font-weight: bold;
+            font-family: "Nunito";
+
+            a {
+              font-family: "Nunito";
+              font-size: 16px !important;
+              font-weight: bold;
+              color: #212529;
+            }
+          }
+        }
+      }
+
+      &-search {
+        display: flex;
+        gap: 35px;
+
+        .search-bar {
+          position: relative;
+          background: rgba(245, 245, 245, 0.7) !important;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.04);
+          border-radius: 80px;
+          height: 50px;
+          width: 400px;
+
+          .btn-search {
+            position: absolute;
+            background: transparent;
+            border: none;
+            width: 50px;
+            height: 50px;
+            right: 0;
+            border-radius: 50%;
+          }
+
+          .input_search {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: transparent;
+            text-indent: 20px;
+            border: none;
+            outline: none;
+          }
+        }
+
+        .cart {
+          border: none;
+          width: 50px;
+          height: 50px;
+          right: 0;
+          border-radius: 50%;
+          color: #c1272d;
+          background: rgba(245, 245, 245, 0.7);
+          transition: transform 0.6s;
+
+          a {
+            color: #c1272d;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .header-bottom {
+    background: #c1272d;
+
+    .menu-wrap {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 0px !important;
+
+        li {
+          padding: 8px 0;
+
+          a {
+            font-size: 17px;
+            font-weight: 400;
+            color: white;
+            font-family: "Nunito";
+          }
+
+          &:hover a {
+            text-decoration: underline;
+            color: white;
+            font-weight: normal !important;
+          }
+
+          .ul2,
+          .ul3,
+          .ul4,
+          .ul5 {
+            z-index: 999999;
+            display: block;
+            position: absolute;
+            opacity: 0;
+            transform: translate(0, 10px);
+            transition: opacity 200ms ease-in, transform 200ms ease-in,
+              visibility 200ms ease-in;
+            margin-top: 8px;
+            width: 260px;
+            padding-left: 15px !important;
+            background: white;
+            box-shadow: 7px 8px 7px rgba(0, 0, 0, 0.25);
+            border-top: 3px solid #bd8e34;
+            border-left: 0px solid #bd8e34;
+            border-right: 0px solid #bd8e34;
+            border-bottom: 0px solid #bd8e34;
+            border-radius: 8px 8px 4px 4px;
+            top: 40px;
+            transition: top 0.3s ease;
+
+            li {
+              a {
+                color: black !important;
+                text-decoration: none !important;
+              }
+
+              &:hover a {
+                color: #c1272d !important;
+                font-weight: bold !important;
+              }
+            }
+          }
+        }
+      }
+
+      .li2,
+      .li3,
+      .li4,
+      .li5 {
+        position: relative;
+      }
+
+      .li2:hover .ul2,
+      .li3:hover .ul3,
+      .li4:hover .ul4,
+      .li5:hover .ul5 {
+        opacity: 1;
+        pointer-events: auto;
+        top: 23px;
+      }
+    }
+  }
+  .mobile_menu {
+    height: 70px;
+    background-color: white;
+    display: none;
+    @media (max-width: 1200px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    &_cart {
+      margin-left: 20px;
+      // margin-top: 10px;
+      border: none;
+      width: 50px;
+      height: 50px;
+      right: 0;
+      border-radius: 50%;
+      color: #c1272d;
+      background: rgba(245, 245, 245, 0.7);
+      transition: transform 0.6s;
+      &:hover a i {
+        transform: scale(1.2);
+      }
+
+      a {
+        color: #c1272d;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+      }
+    }
+    &_logo {
+      img {
+        width: 70px;
+        height: auto;
+      }
+    }
+    &_icon {
+      margin-right: 30px;
+      i {
+        transform: scale(1.9);
+        color: #c1272d;
+      }
+      &.active {
+       display: none;
+      }
+    }
+    &_exit{
+        margin-right: 30px;
+        display: none;
+      i {
+        transform: scale(1.9);
+        color: #c1272d;
+      }
+      &.active {
+        display: block;
+      }
+    }
+    &_container {
+        display: flex;
+        justify-content: center;
+        // height: 450px;
+        background: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        top: 112px;
+        width: 100%;
+        // left: -1400px;
+        bottom: 0;
+        z-index: 65;
+        transition: all 0.5s linear;
+        padding-top: 15px;
+        opacity: 0;
+        @media (max-width: 1200px) {
+            height: 452px;
+            }
+        @media (max-width: 480px) {
+            top: 120px;
+            height: 460px; 
+            }
+      &.active {
+        // left: 0;
+        // top: 0;
+        opacity: 1;
+      }
+    }
+    &_wrap {
+      max-width: 400px;
+
+      // width: 100%;
+    }
+    &_search {
+      position: relative;
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      // height: 100%;
+      // width: 100%;
+      // background: transparent;
+      // text-indent: 15px;
+      // border: none;
+      // outline: none;
+
+      input {
+        border-radius: 20px;
+        width: 380px;
+        padding: 8px;
+        /* color: #ffffff96; */
+        border-color: #d7d4d4;
+        padding-left: 20px;
+        margin-top: 15px;
+        position: relative;
+        @media (max-width: 480px) {
+          width: 340px;
+          }
+      }
+      i {
+        position: absolute;
+        top: 27px;
+        right: 27px;
+      }
+    }
+    &_list {
+      text-align: center;
+      ul {
+        li {
+          list-style: none;
+          /* margin-top: 10px; */
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #977878;
+        }
+      }
+    }
+    &_contact {
+      width: 100%;
+      &_top {
+        display: flex;
+        @media (max-width: 480px) {
+            flex-direction: column;
+            text-align: center;
+          }
+        a {
+          font-size: 14px;
+          color: #c1272d;
+          padding: 5px;
+          i {
+            font-size: 12px;
+          }
+          span {
+            font-size: 14px;
+            color: #c1272d;
+          }
+        }
+      }
+      &_bottom {
+        display: flex;
+        justify-content: center;
+        ul {
+          display: flex;
+          margin-left: 0;
+          li {
+            // margin-left: 10px;
+            list-style-type: none;
+            padding-right: 10px;
+            img {
+              width: 27px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

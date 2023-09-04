@@ -11,8 +11,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap"
+        rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -20,7 +22,7 @@
     <div id="wrapper">
         <!-- Begin Header -->
         <header class="header">
-            <div class="destop-menu">
+            <div class="desktop-menu">
                 <div class="header-top">
                     <div class="container">
                         <div class="top-left">
@@ -30,17 +32,20 @@
                             <ul>
                                 <li>
                                     <a href="">
-                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/zh-CN.svg" alt="Chinese" style="width: 27px; height: 20px;">
+                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/zh-CN.svg"
+                                            alt="Chinese" style="width: 27px; height: 20px;">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/en.svg" alt="English" style="width: 27px; height: 20px;">
+                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/en.svg"
+                                            alt="English" style="width: 27px; height: 20px;">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/vi.svg" alt="VietNamese" style="width: 27px; height: 20px;">
+                                        <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/vi.svg"
+                                            alt="VietNamese" style="width: 27px; height: 20px;">
                                     </a>
                                 </li>
                             </ul>
@@ -52,19 +57,22 @@
                         <div class="center-item">
                             <div class="center-item-logo">
                                 <a href="https://bitishop.site/yensao">
-                                    <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/Yen_Sao_Dai_An-01-1.png" alt=" Logo Yến Sào " style="width: 95px; height: auto;">
+                                    <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/Yen_Sao_Dai_An-01-1.png"
+                                        alt=" Logo Yến Sào " style="width: 95px; height: auto;">
                                 </a>
                             </div>
                             <div class="center-item-info">
                                 <div class="info1">
-                                    <img src="https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/icon_phone.png" alt="phone">
+                                    <img src="https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/icon_phone.png"
+                                        alt="phone">
                                     <ul>
                                         <li>Hotline</li>
                                         <li> <a href="">0983861384</a> </li>
                                     </ul>
                                 </div>
                                 <div class="info1">
-                                    <img src="https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/icon_mail.png" alt="mail">
+                                    <img src="https://bitishop.site/yensao/wp-content/themes/yensaohaidao/assets/img/home/icon_mail.png"
+                                        alt="mail">
                                     <ul>
                                         <li>Email</li>
                                         <li> <a href="">khanhan1202@gmail.com</a> </li>
@@ -74,7 +82,8 @@
                             <div class="center-item-search">
                                 <div class="search-bar">
                                     <form class="form" action="">
-                                        <button class="btn-search" type="submit"><i class="fas fa-search" style="color: #c1272d;"></i></button>
+                                        <button class="btn-search" type="submit"><i class="fas fa-search"
+                                                style="color: #c1272d;"></i></button>
                                         <input type="text" class="input_search" placeholder="Tìm kiếm sản phẩm...">
                                     </form>
                                 </div>
@@ -139,6 +148,102 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" style="display: none;"> <i class="fal fa-bars"></i> </div>
+            <div class="mobile_menu">
+                <div class="mobile_menu_cart">
+                    <a href=""><i class="fal fa-shopping-bag" style="color: #c1272d;"></i></a>
+                </div>
+                <div class="mobile_menu_logo">
+                    <a href="#">
+                        <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/Yen_Sao_Dai_An-01-1.png"
+                            alt="Logo Yến Sào">
+                    </a>
+
+                </div>
+                <div class="mobile_menu_icon">
+                    <a href="#">
+                        <i class="fad fa-bars"></i>
+                    </a>
+
+
+                </div>
+                <div class="mobile_menu_exit">
+                    <a href="#">
+                    <i class="fal fa-times"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+            <div class="mobile_menu_container">
+                <div class="mobile_menu_wrap">
+                    <div class="mobile_menu_search">
+                        <input name="s" type="text" class="input_search" placeholder="Tìm kiếm sản phẩm...">
+                        <i class="fal fa-search"></i>
+                    </div>
+                    <div class="mobile_menu_list">
+                        <ul>
+                            <li>TRANG CHỦ</li>
+                            <li>GIỚI THIỆU</li>
+                            <li>SẢN PHẨM YẾN</li>
+                            <li>CẨM NANG</li>
+                            <li>TIN TỨC</li>
+                            <li>LIÊN HỆ</li>
+                        </ul>
+
+                    </div>
+                    <div class="mobile_menu_contact">
+                        <div class="mobile_menu_contact_top">
+                            <a href="#">
+                                <i class="fas fa-phone-volume"></i>
+                                Hotline:
+                                <span class="info"> 0983861384</span>
+                            </a>
+
+                            <a href="#">
+                                <i class="fas fa-envelope"></i>
+                                Email:
+                                <span class="info"> khanhan1202@gmail.com</span>
+                            </a>
+                        </div>
+                        <div class="mobile_menu_contact_bottom">
+                            <ul>
+                                <li>
+                                    <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/zh-CN.svg"
+                                        height="24" width="24" alt="Chinese (Simplified)">
+                                </li>
+                                <li>
+                                    <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/en.svg"
+                                        height="24" width="24" alt="English">
+                                </li>
+                                <li>
+                                    <img src="https://bitishop.site/yensao/wp-content/plugins/gtranslate/flags/svg/vi.svg"
+                                        height="24" width="24" alt="Vietnamese">
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </header>
         <!-- End Header -->
+
+        <script>
+        (function($) {
+            $(document).ready(function() {
+                $('.mobile_menu_icon').click(function() {
+                    $('.mobile_menu_container').addClass('active');
+                    $('.mobile_menu_icon').addClass('active');
+                    $('.mobile_menu_exit').addClass('active');
+                });
+                $('.mobile_menu_exit').click(function() {
+                    $('.mobile_menu_container').removeClass('active');
+                    $('.mobile_menu_icon').removeClass('active');
+                    $('.mobile_menu_exit').removeClass('active');
+                });
+            });
+        })(jQuery);
+        </script>
