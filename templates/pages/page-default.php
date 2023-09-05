@@ -47,7 +47,9 @@
             </div>
         </div>
     </section>
-    sdasdasdsadasdsadasd
+
+
 </main>
+
 
 <?php get_footer(); ?>

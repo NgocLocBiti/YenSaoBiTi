@@ -39,7 +39,7 @@
                 margin: 20,
                 autoplay: true,
                 slideTransition: 'linear',
-                autoplayTimeout: 5000,
+                autoplayTimeout: 3000,
                 autoplaySpeed: 1000,
                 autoplayHoverPause: false,
                 // nav: true,

@@ -329,7 +329,6 @@ main {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
   // title setting
   h1 {
     font-size: 24px !important;
@@ -380,6 +379,7 @@ main {
 }
 
 @import "header";
+<<<<<<< HEAD
 //TRANG CHỦ
 @import "home";
 //VỀ CHÚNG TÔI
@@ -387,3 +387,24 @@ main {
 
 @import "footer";
 
+=======
+
+@import "home";
+@import "gioithieu";
+@import "tintuc";
+@import "shop-section-one";
+<<<<<<< HEAD
+@import "shop-yen-sao-dai-an";
+@import "shop-yen-tinh-che";
+@import "shop-set-yen-sao-dai-an";
+=======
+@import "cam-nang";
+
+
+
+
+
+>>>>>>> 7b08dc1cf33a9b9b868009045a98bfa73ff5344c
+
+@import "footer";
+>>>>>>> 46b62775dbb60e3994a0f3eb8f33d5bd7d645c25

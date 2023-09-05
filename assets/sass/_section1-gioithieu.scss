@@ -1,0 +1,19 @@
+.section1g-gt {
+  background: #f9f9f9;
+  height: 48px;
+  align-items: center;
+  display: flex;
+
+  .container {
+    padding: 0 45px;
+
+    .breadcrumbs a {
+      text-decoration: none;
+    }
+
+    .breadcrumbs a:last-child {
+      color: #c1272d;
+      font-weight: bold;
+    }
+  }
+}
