@@ -1,15 +1,20 @@
 <div class="section1">
-    <div id="section1" class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/banner.jpg" alt=""  >
+    <?php
+    $images = get_field('banner_home', 2);
+    if ($images) : ?>
+        <div id="section1" class="owl-carousel owl-theme">
+
+            <?php foreach ($images as $image) : ?>
+                <div class="item">
+                    <img src="<?php echo esc_url($image['sizes']['thumbnail']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                </div>
+                <p><?php echo esc_html($image['caption']); ?></p>
+
+            <?php endforeach; ?>
+
         </div>
-        <div class="item">
-            <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/banner3.jpg" alt="" >
-        </div>
-        <div class="item">
-            <img src="https://bitishop.site/yensao/wp-content/uploads/2023/08/banner2.jpg" alt="" >
-        </div>
-    </div>
+    <?php endif; ?>
+
 </div>
 <script>
     (function($) {

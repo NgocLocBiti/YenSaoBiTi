@@ -9,7 +9,7 @@
             </div>
             <div class="feedback_wrap">
                 <div id="feedback_owl_tow" class="owl-carousel owl-theme">
-                    <div class="feedback_item">
+                    <div class="feedback_item2">
                         <div class="feedback_top">
                             <div class="feedback_bottom">
                                 <div class="feedback_bottom_left">
@@ -28,7 +28,7 @@
                             <p>"Tôi đã sử dụng yến sào này trong thực đơn chăm sóc sức khỏe của gia đình. Mọi người đều thấy tăng cường sức kháng và có sự cải thiện rõ rệt về tinh thần."</p>
                         </div>
                     </div>
-                    <div class="feedback_item">
+                    <div class="feedback_item2">
                         <div class="feedback_top">
                             <div class="feedback_bottom">
                                 <div class="feedback_bottom_left">
@@ -48,7 +48,7 @@
                                 "Yến sào trong sản phẩm này thơm ngon và không hề có vị tanh khó chịu. Đây là một sản phẩm tuyệt vời để tặng người thân trong những dịp đặc biệt."" </p>
                         </div>
                     </div>
-                    <div class="feedback_item">
+                    <div class="feedback_item2">
                         <div class="feedback_top">
                             <div class="feedback_bottom">
                                 <div class="feedback_bottom_left">

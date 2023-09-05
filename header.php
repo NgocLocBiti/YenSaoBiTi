@@ -103,20 +103,20 @@
                                     <a href=""> TRANG CHỦ </a>
                                 </li>
                                 <li class="li2">
-                                    <a href=""> GIỚI THIỆU <i class="far fa-angle-down" style="color: #ffffff;"></i>
+                                    <a href="./gioi-thieu"> GIỚI THIỆU <i class="far fa-angle-down" style="color: #ffffff;"></i>
                                     </a>
                                     <ul class="ul2">
-                                        <li> <a href=""> Câu chuyện về yến</a></li>
-                                        <li> <a href=""> Về chúng tôi</a></li>
+                                        <li> <a href="./gioi-thieu"> Câu chuyện về yến</a></li>
+                                        <li> <a href="./gioi-thieu-ve-chung-toi"> Về chúng tôi</a></li>
                                     </ul>
                                 </li>
                                 <li class="li3">
-                                    <a href=""> SẢN PHẨM YẾN <i class="far fa-angle-down" style="color: #ffffff;"></i>
+                                    <a href="./cua-hang"> SẢN PHẨM YẾN <i class="far fa-angle-down" style="color: #ffffff;"></i>
                                     </a>
                                     <ul class="ul3">
-                                        <li> <a href=""> Yến sào Đại An</a></li>
-                                        <li> <a href=""> Yến tinh chế</a></li>
-                                        <li> <a href=""> Set Yến sào Đại An</a></li>
+                                        <li> <a href="./yen-sao-dai-an"> Yến sào Đại An</a></li>
+                                        <li> <a href="./yen-tinh-che"> Yến tinh chế</a></li>
+                                        <li> <a href="./set-yen-sao-dai-an"> Set Yến sào Đại An</a></li>
                                     </ul>
                                 </li>
                                 <li class="li4">
